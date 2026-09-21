@@ -1,0 +1,83 @@
+{
+  "mint": "Foot4fxy8CHxM37W8BeHwK6aLd8VH2yHTFu43KCxbCqc",
+  "symbol": "BIG",
+  "name": "Bigfoot",
+  "holders": [
+    {
+      "owner": "4MMp79ou3T8D1ZCDmdbgUxmoqAvrD5AiGyxEsXNgLkvJ",
+      "uiAmount": 520000000.0,
+      "percentage": 52.0
+    },
+    {
+      "owner": "UDFkMEoaKioaJpTEUdBCg2K12TYJK5kZ9e8PfL6Rb1A",
+      "uiAmount": 258666408.0,
+      "percentage": 25.87
+    },
+    {
+      "owner": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
+      "uiAmount": 108998276.29492766,
+      "percentage": 10.9
+    },
+    {
+      "owner": "5oFeRLAENn1uRY8BWsVzbmNQhgJUm2Z1JvjxwhEJC1rG",
+      "uiAmount": 50000000.0,
+      "percentage": 5.0
+    },
+    {
+      "owner": "7iTE3Fg1E4pMJcZHKtdh31v4zPMUtpvGV9RgedoKitJR",
+      "uiAmount": 6171893.855340015,
+      "percentage": 0.617
+    },
+    {
+      "owner": "FLgLcfXNitZEk5y5s8n41UphTDrptiDs3oJYmzDBzBZB",
+      "uiAmount": 5269669.919456469,
+      "percentage": 0.527
+    },
+    {
+      "owner": "86ykAWvnCcbt3Bq5i28ncNU5vjKPthgjwhzNpfChANgS",
+      "uiAmount": 4061680.583438556,
+      "percentage": 0.406
+    },
+    {
+      "owner": "GugU1tP7doLeTw9hQP51xRJyS8Da1fWxuiy2rVrnMD2m",
+      "uiAmount": 3342801.02298778,
+      "percentage": 0.334
+    },
+    {
+      "owner": "Dk2CDkpXTCmdsaaZFh9fFd77M2DMHfCxNdz314C5MMu1",
+      "uiAmount": 2412632.227209918,
+      "percentage": 0.241
+    },
+    {
+      "owner": "46Hkd35DTeft16GJHyupH4ATDf5QqpL2sWKLDoiStWkN",
+      "uiAmount": 2062172.19989507,
+      "percentage": 0.206
+    },
+    {
+      "owner": "6iVBAsquJRaLsXbojb18kqTW1d5iVLspVjCtsReZBKhY",
+      "uiAmount": 1991794.370752549,
+      "percentage": 0.199
+    },
+    {
+      "owner": "DXDfTEJhEEwbCNznicoNc5eThrvHhByofxY9v4HboXvU",
+      "uiAmount": 1812498.772900905,
+      "percentage": 0.181
+    },
+    {
+      "owner": "6SfA7X7MRjtwXUjMNgo7TQkVKq9E4VMQn7iHe6KiKFRY",
+      "uiAmount": 1798546.453102736,
+      "percentage": 0.18
+    },
+    {
+      "owner": "D3Zpw51djARtVkvNyoa5RrTZNfFG5YqHizgF1xDKZeeo",
+      "uiAmount": 1602500.184527221,
+      "percentage": 0.16
+    },
+    {
+      "owner": "7cU6NpjiWg4MejADHQqVaYP8emZ1qn4isGdzoh8jiWAx",
+      "uiAmount": 1600000.0,
+      "percentage": 0.16
+    }
+  ],
+  "updatedAt": "2026-09-10T21:16:40.946870+00:00"
+}

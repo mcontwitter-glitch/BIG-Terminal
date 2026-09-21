@@ -1,0 +1,65 @@
+:root {
+  --bg: #02060c;
+  --bg-panel: rgba(4, 18, 28, 0.72);
+  --cyan: #00e5ff;
+  --cyan-dim: #00bcd4;
+  --cyan-glow: rgba(0, 229, 255, 0.55);
+  --green: #00ffc8;
+  --text: #b8f0ff;
+  --text-dim: #5a8a9a;
+  --danger: #ff4466;
+  --panel-border: rgba(0, 229, 255, 0.55);
+  --font-hud: 'Share Tech Mono', ui-monospace, monospace;
+  --font-display: 'Orbitron', 'Share Tech Mono', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  height: 100svh;
+  height: 100dvh;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-hud);
+  touch-action: none;
+}
+
+#root {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  height: 100svh;
+  height: 100dvh;
+}
+
+body {
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 40%, rgba(0, 60, 80, 0.35), transparent 70%),
+    radial-gradient(ellipse 50% 40% at 50% 100%, rgba(0, 40, 60, 0.4), transparent 60%),
+    linear-gradient(180deg, #010308 0%, #020a12 40%, #031018 100%);
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+  color: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 229, 255, 0.35);
+}
