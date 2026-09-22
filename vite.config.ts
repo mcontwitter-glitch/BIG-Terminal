@@ -204,13 +204,13 @@ function liveApiPlugin(): Plugin {
 }
 
 // https://vite.dev/config/
-// GitHub Pages serves under /BIG-Terminal/; keep '/' for local `npm run dev`.
-export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/BIG-Terminal/' : '/',
+// Custom domain terminal.bigfoot404.biz serves at site root (not /BIG-Terminal/).
+export default defineConfig({
+  base: '/',
   plugins: [react(), liveApiPlugin()],
   server: {
     host: '0.0.0.0',
     port: 5173,
     allowedHosts: true,
   },
-}))
+})

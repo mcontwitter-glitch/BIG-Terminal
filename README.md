@@ -1,6 +1,6 @@
 # BIG Terminal
 
-**Live:** https://mcontwitter-glitch.github.io/BIG-Terminal/
+**Live:** https://terminal.bigfoot404.biz
 
 
 Cinematic cyan holographic command-center HUD that simulates **1500 collaborative agents** working on shared multi-step tasks. Pure client-side — Vite + React + TypeScript + Three.js.
