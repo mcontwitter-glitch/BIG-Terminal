@@ -10,12 +10,13 @@ interface Props {
   filteredIdsRef: MutableRefObject<Set<number> | null>;
 }
 
+const BASE = import.meta.env.BASE_URL;
 const HOLO_URLS = [
-  '/holograms/bigfoot-holo-white.png?v=cartoon2',
-  '/holograms/bigfoot-holo-red.png?v=cartoon2',
-  '/holograms/bigfoot-holo-green.png?v=cartoon2',
-  '/holograms/bigfoot-holo-black.png?v=cartoon2',
-  '/holograms/bigfoot-holo-sand.png?v=cartoon2',
+  `${BASE}holograms/bigfoot-holo-white.png?v=cartoon2`,
+  `${BASE}holograms/bigfoot-holo-red.png?v=cartoon2`,
+  `${BASE}holograms/bigfoot-holo-green.png?v=cartoon2`,
+  `${BASE}holograms/bigfoot-holo-black.png?v=cartoon2`,
+  `${BASE}holograms/bigfoot-holo-sand.png?v=cartoon2`,
 ] as const;
 
 /** Black needs normal blending so the silhouette stays visible; others glow additively. */
@@ -477,7 +478,7 @@ export function NetworkViz({ stateRef, onSelectAgent, filteredIdsRef }: Props) {
     logoPlane.frustumCulled = false;
     coreGroup.add(logoPlane);
     let logoTex: THREE.Texture | null = null;
-    loader.load('/holograms/bigfoot-logo-circle.png?v=4', (tex) => {
+    loader.load(`${BASE}holograms/bigfoot-logo-circle.png?v=4`, (tex) => {
       tex.colorSpace = THREE.SRGBColorSpace;
       tex.anisotropy = Math.min(8, renderer.capabilities.getMaxAnisotropy());
       logoTex = tex;
@@ -519,7 +520,7 @@ export function NetworkViz({ stateRef, onSelectAgent, filteredIdsRef }: Props) {
     ringRunners.frustumCulled = false;
     scene.add(ringRunners);
     let ringRunnerTex: THREE.Texture | null = null;
-    loader.load('/holograms/bigfoot-holo-red.png?v=cartoon2', (tex) => {
+    loader.load(`${BASE}holograms/bigfoot-holo-red.png?v=cartoon2`, (tex) => {
       tex.colorSpace = THREE.SRGBColorSpace;
       tex.anisotropy = Math.min(4, renderer.capabilities.getMaxAnisotropy());
       ringRunnerTex = tex;

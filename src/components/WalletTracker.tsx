@@ -36,7 +36,7 @@ export function WalletTracker() {
     let cancelled = false;
     const load = async () => {
       try {
-        const res = await fetch(`/token-holders.json?t=${Date.now()}`);
+        const res = await fetch(`${import.meta.env.BASE_URL}token-holders.json?t=${Date.now()}`);
         if (!res.ok) throw new Error(`holders ${res.status}`);
         const json = (await res.json()) as HolderPayload;
         if (!cancelled) {
